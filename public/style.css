@@ -1,16 +1,17 @@
+*{
+  display: grid;
+}
 body{
   background-color: #010101;
 }
 .App {
   text-align: center;
   display: flex;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 input {
-  margin: 0.5rem 0;
   font-size: 200%;
   border-width:2px;
   border-color:white;
@@ -36,6 +37,20 @@ h2{
   margin: 50px;
   font-family: 'Roboto Slab', serif;
   color: white;
+}
+h3{
+  margin: 50px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(100, 0, 0);
+  text-align: center;
+  font-size: 150px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(100, 0, 0);
+  margin-top: 10%;
 }
 @media screen and (max-width: 600px) {
 }

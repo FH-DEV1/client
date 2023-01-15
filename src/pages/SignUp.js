@@ -21,13 +21,13 @@ function SignUp({ setIsAuth }) {
     <div className="signUp">
       <h1>Creer un compte :</h1>
       <input
-        placeholder="Username"
+        placeholder="Nom d'utilisateur"
         onChange={(event) => {
           setUser({ ...user, username: event.target.value });
         }}
       />
       <input
-        placeholder="Password"
+        placeholder="Mot de passe"
         type="password"
         onChange={(event) => {
           setUser({ ...user, password: event.target.value });
