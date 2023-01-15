@@ -1,14 +1,13 @@
-body {
+body{
+  background-color: #010101;
+}
+.App {
   text-align: center;
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: #010101;
-}
-.login-form {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 input {
   margin: 0.5rem 0;
@@ -18,9 +17,11 @@ input {
   background-color: #010101;
   color: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 button {
-  border-width:2px;
   border-color:white;
   background-color: #010101;
   color: white;
@@ -31,16 +32,10 @@ h1{
   font-family: 'Roboto Slab', serif;
   color: white;
 }
+h2{
+  margin: 50px;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
 @media screen and (max-width: 600px) {
-  input {
-    margin: 0.5rem 0;
-    font-size: 100%;
-    border-width:2px;
-    padding: 20px;
-  }
-  button {
-    border-width:2px;
-    font-size: 100%;
-    padding: 10px;
-  }
 }

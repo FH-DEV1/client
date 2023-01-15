@@ -1,20 +1,13 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-//import React, { useState } from "react";
 import Login from "./pages/Login";
-import Join from "./pages/Join";
-import ErrorPage from "./pages/ErrorPage";
+import SignUp from "./pages/SignUp";
 
 function App() {
-  //const [currentForm, setCurrentForm] = useState('login')
-
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Login />}/>
-        <Route path="/join-a-room" element={<Join />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <SignUp />
+      <h2>OU</h2>
+      <Login />
+    </div>
   );
 }
 
