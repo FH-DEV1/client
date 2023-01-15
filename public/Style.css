@@ -1,20 +1,14 @@
-.App {
+body {
   text-align: center;
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
   background-color: #010101;
-  color: white;
 }
-.auth-form-container, .login-form {
+.login-form {
   display: flex;
   flex-direction: column;
-}
-label{
-  font-size: 200%;
-  text-align: left;
-  padding: 0.25rem 0;
 }
 input {
   margin: 0.5rem 0;
@@ -33,26 +27,19 @@ button {
   font-size: 200%;
   padding: 10px;
 }
+h1{
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
 @media screen and (max-width: 600px) {
-  label{
-    font-size: 100%;
-    text-align: left;
-    padding: 0.25rem 0;
-  }
   input {
     margin: 0.5rem 0;
     font-size: 100%;
     border-width:2px;
-    border-color:white;
-    background-color: #010101;
-    color: white;
     padding: 20px;
   }
   button {
     border-width:2px;
-    border-color:white;
-    background-color: #010101;
-    color: white;
     font-size: 100%;
     padding: 10px;
   }
